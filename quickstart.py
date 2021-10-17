@@ -2,8 +2,8 @@
 from instapy import InstaPy
 from instapy import smart_run
 
-insta_username = ''
-insta_password = ''
+insta_username = 'mahsa_18dfg'
+insta_password = '222558618'
 
 # get a session!
 session = InstaPy(username=insta_username,
@@ -41,7 +41,7 @@ with smart_run(session):
 
     # follow activity
     ammount_number = 500
-    session.follow_user_followers(['chrisburkard', 'danielkordan'],
+    session.follow_user_followers(['marshmellomusic', 'danielkordan'],
                                   amount=ammount_number, randomize=False,
                                   interact=True, sleep_delay=240)
 
